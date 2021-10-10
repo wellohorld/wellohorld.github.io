@@ -1,0 +1,62 @@
+@import "buttons";
+@import "switch";
+
+
+body{
+    background: #111;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+h1 {
+    margin: 10px;
+    color: rgb(201, 201, 201);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin: 10px;
+    font-size: large;
+    color: rgb(201, 201, 201);
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 10px;
+    font-size: large;
+    color: rgb(201, 201, 201);
+    font-family: 'Hind', sans-serif;
+}
+
+.h1tag {
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar {
+    color: rgb(223, 223, 223);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 36px;
+    width: 100%;
+    margin: 0px;
+    padding: 16px;
+    background-color: #162035;
+}
+
+.wrapper {
+    display: flex;
+    padding: 20px;
+    margin: 5px 25px;
+    flex-direction: column;
+}
+
+.wrapper2 {
+    background-color:rgb(31, 33, 44);
+    padding-top: 36px;
+    justify-content: center;
+    position: relative;
+}

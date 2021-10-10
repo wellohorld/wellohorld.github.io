@@ -9,23 +9,28 @@ body{
   }
 
 h1 {
-    margin: 10px;
     color: rgb(201, 201, 201);
     font-family: 'Montserrat', sans-serif;
+
 }
 
 h2 {
-    margin: 10px;
+
     font-size: large;
     color: rgb(201, 201, 201);
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    margin: 10px;
+
     font-size: large;
     color: rgb(201, 201, 201);
     font-family: 'Hind', sans-serif;
+}
+
+.mainHeader {
+    background-color: #222427;
+    padding: 16px;
 }
 
 .h1tag {
@@ -55,8 +60,9 @@ p {
 }
 
 .wrapper2 {
-    background-color:rgb(31, 33, 44);
+    background-color:rgba(31, 33, 44, 0.425);
     padding-top: 36px;
+    border-radius: 10px;
     justify-content: center;
     position: relative;
 }

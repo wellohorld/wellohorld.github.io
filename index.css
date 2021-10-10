@@ -157,23 +157,25 @@ body {
 }
 
 h1 {
-  margin: 10px;
   color: #c9c9c9;
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  margin: 10px;
   font-size: large;
   color: #c9c9c9;
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  margin: 10px;
   font-size: large;
   color: #c9c9c9;
   font-family: 'Hind', sans-serif;
+}
+
+.mainHeader {
+  background-color: #222427;
+  padding: 16px;
 }
 
 .h1tag {
@@ -210,8 +212,9 @@ p {
 }
 
 .wrapper2 {
-  background-color: #1f212c;
+  background-color: rgba(31, 33, 44, 0.425);
   padding-top: 36px;
+  border-radius: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

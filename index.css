@@ -204,15 +204,14 @@ p {
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  margin: 5px 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: rgba(31, 33, 44, 0.425);
 }
 
 .wrapper2 {
-  background-color: rgba(31, 33, 44, 0.425);
   padding-top: 36px;
   border-radius: 10px;
   -webkit-box-pack: center;
